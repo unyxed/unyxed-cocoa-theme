@@ -8,12 +8,14 @@
     "dark": {
       "text": 7.0,
       "comment": 4.2,
-      "syntax": 4.5
+      "syntax": 4.5,
+      "chroma": 50.0
     },
     "light": {
       "text": 7.0,
       "comment": 4.2,
-      "syntax": 4.8
+      "syntax": 4.8,
+      "chroma": 45.0
     }
   },
   "families": [
@@ -29,20 +31,15 @@
             "panel": "#2C2124",
             "tx": "#F0E3DF",
             "cm": "#A08A8A",
-            "kw": "#ED8888",
-            "st": "#F0B28A",
-            "fn": "#99D2C0",
-            "nu": "#C7A0E8",
-            "ty": "#A7C6F4",
-            "er": "#FF8C7A",
-            "green": "#9CC9A0",
-            "yellow": "#E7C48F",
-            "blue": "#8FB4E0",
             "sel": "#4E3A3E",
-            "ct": "#EA8DBB",
-            "pr": "#C1CC7B",
-            "im": "#6EB579",
-            "op": "#4FB2C8"
+            "accent": "#ED8888",
+            "red": "#F66C75",
+            "orange": "#F79156",
+            "yellow": "#FACB62",
+            "green": "#A6C062",
+            "aqua": "#53D2BD",
+            "blue": "#59A5EF",
+            "purple": "#E093E1"
           }
         },
         {
@@ -53,20 +50,15 @@
             "panel": "#EADFDA",
             "tx": "#3B2A2D",
             "cm": "#7D6B6D",
-            "kw": "#A34445",
-            "st": "#8E5521",
-            "fn": "#285546",
-            "nu": "#775297",
-            "ty": "#0E5FA2",
-            "er": "#BA392C",
-            "green": "#3B774D",
-            "yellow": "#90621E",
-            "blue": "#3566A8",
             "sel": "#E6D3CD",
-            "ct": "#903665",
-            "im": "#237139",
-            "pr": "#5F6715",
-            "op": "#006C87"
+            "accent": "#A34445",
+            "red": "#961227",
+            "orange": "#9E420F",
+            "yellow": "#856102",
+            "green": "#436517",
+            "aqua": "#00625E",
+            "blue": "#004486",
+            "purple": "#5A1B5E"
           }
         }
       ]
@@ -83,21 +75,17 @@
             "panel": "#2D1C1F",
             "tx": "#F2E4E2",
             "cm": "#A58A8C",
-            "kw": "#E37B7C",
-            "st": "#EAAD85",
-            "fn": "#7EC8B2",
-            "nu": "#CBA0EB",
-            "ty": "#9FBBED",
-            "er": "#FF8C7A",
-            "green": "#9CC9A0",
-            "yellow": "#E7C48F",
-            "blue": "#8FB4E0",
             "sel": "#503539",
-            "ct": "#FD99C7",
-            "im": "#82BA72",
-            "pr": "#B8AD5A",
-            "op": "#40A4BB"
-          }
+            "accent": "#E37B7C",
+            "red": "#FF8C7A",
+            "orange": "#EAAD85",
+            "yellow": "#E7C48F",
+            "green": "#9CC9A0",
+            "aqua": "#7EC8B2",
+            "blue": "#8FB4E0",
+            "purple": "#CBA0EB"
+          },
+          "pending": true
         },
         {
           "name": "Rosewood Light",
@@ -107,21 +95,17 @@
             "panel": "#EBDCDA",
             "tx": "#3D2629",
             "cm": "#7E6A6B",
-            "kw": "#A34249",
-            "st": "#915223",
-            "fn": "#295142",
-            "nu": "#775096",
-            "ty": "#1C60A2",
-            "er": "#B8382C",
-            "green": "#3B764C",
-            "yellow": "#8E611E",
-            "blue": "#3566A8",
             "sel": "#E8D2D0",
-            "ct": "#7E2658",
-            "im": "#067140",
-            "pr": "#576A1B",
-            "op": "#006B85"
-          }
+            "accent": "#A34249",
+            "red": "#B8382C",
+            "orange": "#915223",
+            "yellow": "#8E611E",
+            "green": "#3B764C",
+            "aqua": "#295142",
+            "blue": "#3566A8",
+            "purple": "#775096"
+          },
+          "pending": true
         }
       ]
     },
@@ -137,21 +121,17 @@
             "panel": "#2D1D24",
             "tx": "#F1E4E6",
             "cm": "#A38B93",
-            "kw": "#E78FB3",
-            "st": "#E1B28B",
-            "fn": "#8BC7BB",
-            "nu": "#B993DF",
-            "ty": "#AEBAE6",
-            "er": "#FF8E86",
-            "green": "#9CC9A0",
-            "yellow": "#E7C48F",
-            "blue": "#8FB4E0",
             "sel": "#4F3943",
-            "ct": "#F58E84",
-            "im": "#6DC58C",
-            "pr": "#A3AF5C",
-            "op": "#46A4C2"
-          }
+            "accent": "#E78FB3",
+            "red": "#FF8E86",
+            "orange": "#E1B28B",
+            "yellow": "#E7C48F",
+            "green": "#9CC9A0",
+            "aqua": "#8BC7BB",
+            "blue": "#8FB4E0",
+            "purple": "#B993DF"
+          },
+          "pending": true
         },
         {
           "name": "Mocha Berry Light",
@@ -161,21 +141,17 @@
             "panel": "#EADCE0",
             "tx": "#3B2830",
             "cm": "#7C6A73",
-            "kw": "#9E4270",
-            "st": "#905322",
-            "fn": "#214C3E",
-            "nu": "#674083",
-            "ty": "#2760A0",
-            "er": "#B8382C",
-            "green": "#3B774D",
-            "yellow": "#8E611E",
-            "blue": "#3566A8",
             "sel": "#E6D0D8",
-            "ct": "#852B30",
-            "im": "#0D713F",
-            "pr": "#586A1B",
-            "op": "#006B84"
-          }
+            "accent": "#9E4270",
+            "red": "#B8382C",
+            "orange": "#905322",
+            "yellow": "#8E611E",
+            "green": "#3B774D",
+            "aqua": "#214C3E",
+            "blue": "#3566A8",
+            "purple": "#674083"
+          },
+          "pending": true
         }
       ]
     },
@@ -191,21 +167,17 @@
             "panel": "#2D2221",
             "tx": "#F1E5DE",
             "cm": "#A39088",
-            "kw": "#E58076",
-            "st": "#E3B28F",
-            "fn": "#94B9A6",
-            "nu": "#C8A1E4",
-            "ty": "#96BFF7",
-            "er": "#FF8E7C",
-            "green": "#9CC9A0",
-            "yellow": "#E7C48F",
-            "blue": "#8FB4E0",
             "sel": "#4C3A38",
-            "ct": "#EF88B1",
-            "im": "#3CBC98",
-            "pr": "#A0B15E",
-            "op": "#46AAC1"
-          }
+            "accent": "#E58076",
+            "red": "#FF8E7C",
+            "orange": "#E3B28F",
+            "yellow": "#E7C48F",
+            "green": "#9CC9A0",
+            "aqua": "#94B9A6",
+            "blue": "#8FB4E0",
+            "purple": "#C8A1E4"
+          },
+          "pending": true
         },
         {
           "name": "Cocoa Copper Light",
@@ -215,21 +187,17 @@
             "panel": "#EADFD7",
             "tx": "#3A2B2A",
             "cm": "#7A6D67",
-            "kw": "#892B32",
-            "st": "#8F5930",
-            "fn": "#31705D",
-            "nu": "#7C569C",
-            "ty": "#125D9F",
-            "er": "#BA392C",
-            "green": "#3B774D",
-            "yellow": "#90621E",
-            "blue": "#3566A8",
             "sel": "#E5D5CB",
-            "ct": "#A24674",
-            "im": "#255D1D",
-            "pr": "#6B6715",
-            "op": "#006F8A"
-          }
+            "accent": "#892B32",
+            "red": "#BA392C",
+            "orange": "#8F5930",
+            "yellow": "#90621E",
+            "green": "#3B774D",
+            "aqua": "#31705D",
+            "blue": "#3566A8",
+            "purple": "#7C569C"
+          },
+          "pending": true
         }
       ]
     }

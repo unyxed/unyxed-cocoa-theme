@@ -4,20 +4,20 @@
 
 /* Rosewood Dark */
 .theme-dark {
-  --ctp-custom-rosewater: 237, 192, 166;
-  --ctp-custom-flamingo: 231, 154, 155;
-  --ctp-custom-pink: 253, 153, 199;
-  --ctp-custom-mauve: 227, 123, 124;
+  --ctp-custom-rosewater: 238, 198, 175;
+  --ctp-custom-flamingo: 227, 123, 124;
+  --ctp-custom-pink: 221, 153, 195;
+  --ctp-custom-mauve: 203, 160, 235;
   --ctp-custom-red: 255, 140, 122;
   --ctp-custom-maroon: 241, 132, 123;
   --ctp-custom-peach: 234, 173, 133;
   --ctp-custom-yellow: 231, 196, 143;
   --ctp-custom-green: 156, 201, 160;
   --ctp-custom-teal: 126, 200, 178;
-  --ctp-custom-sky: 64, 164, 187;
+  --ctp-custom-sky: 134, 190, 201;
   --ctp-custom-sapphire: 138, 186, 210;
   --ctp-custom-blue: 143, 180, 224;
-  --ctp-custom-lavender: 203, 160, 235;
+  --ctp-custom-lavender: 173, 170, 230;
   --ctp-custom-text: 242, 228, 226;
   --ctp-custom-subtext1: 215, 199, 198;
   --ctp-custom-subtext0: 191, 175, 174;
@@ -34,20 +34,20 @@
 
 /* Rosewood Light */
 .theme-light {
-  --ctp-custom-rosewater: 116, 67, 37;
-  --ctp-custom-flamingo: 132, 58, 63;
-  --ctp-custom-pink: 126, 38, 88;
-  --ctp-custom-mauve: 163, 66, 73;
+  --ctp-custom-rosewater: 107, 62, 38;
+  --ctp-custom-flamingo: 163, 66, 73;
+  --ctp-custom-pink: 142, 72, 113;
+  --ctp-custom-mauve: 119, 80, 150;
   --ctp-custom-red: 184, 56, 44;
   --ctp-custom-maroon: 174, 61, 58;
   --ctp-custom-peach: 145, 82, 35;
   --ctp-custom-yellow: 142, 97, 30;
   --ctp-custom-green: 59, 118, 76;
   --ctp-custom-teal: 41, 81, 66;
-  --ctp-custom-sky: 0, 107, 133;
+  --ctp-custom-sky: 47, 92, 117;
   --ctp-custom-sapphire: 49, 96, 137;
   --ctp-custom-blue: 53, 102, 168;
-  --ctp-custom-lavender: 119, 80, 150;
+  --ctp-custom-lavender: 86, 91, 159;
   --ctp-custom-text: 61, 38, 41;
   --ctp-custom-subtext1: 89, 67, 70;
   --ctp-custom-subtext0: 113, 93, 94;
