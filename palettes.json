@@ -1,0 +1,205 @@
+{
+  "package": {
+    "id": "unyxed-cocoa-theme",
+    "name": "Unyxed Cocoa Themes",
+    "author": "unyxed"
+  },
+  "rules": {
+    "dark": {
+      "text": 7.0,
+      "comment": 4.2,
+      "syntax": 4.5
+    },
+    "light": {
+      "text": 7.0,
+      "comment": 4.2,
+      "syntax": 4.8
+    }
+  },
+  "families": [
+    {
+      "name": "Cocoa Rose",
+      "file": "cocoa-rose",
+      "variants": [
+        {
+          "name": "Cocoa Rose Dark",
+          "appearance": "dark",
+          "colors": {
+            "bg": "#382A2D",
+            "panel": "#2C2124",
+            "tx": "#F0E3DF",
+            "cm": "#A08A8A",
+            "kw": "#F2878A",
+            "st": "#F0B28A",
+            "fn": "#8FD0C5",
+            "nu": "#C7A0E8",
+            "ty": "#9DC4EE",
+            "er": "#FF8C7A",
+            "green": "#9CC9A0",
+            "yellow": "#E7C48F",
+            "blue": "#8FB4E0",
+            "sel": "#4E3A3E"
+          }
+        },
+        {
+          "name": "Cocoa Rose Light",
+          "appearance": "light",
+          "colors": {
+            "bg": "#F4EBE7",
+            "panel": "#EADFDA",
+            "tx": "#3B2A2D",
+            "cm": "#7D6B6D",
+            "kw": "#B0414A",
+            "st": "#9B5529",
+            "fn": "#2A726A",
+            "nu": "#81559A",
+            "ty": "#2F5E9C",
+            "er": "#BA392C",
+            "green": "#3B774D",
+            "yellow": "#90621E",
+            "blue": "#3566A8",
+            "sel": "#E6D3CD"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rosewood",
+      "file": "rosewood",
+      "variants": [
+        {
+          "name": "Rosewood Dark",
+          "appearance": "dark",
+          "colors": {
+            "bg": "#3B2629",
+            "panel": "#2D1C1F",
+            "tx": "#F2E4E2",
+            "cm": "#A58A8C",
+            "kw": "#F28B94",
+            "st": "#F2B58E",
+            "fn": "#86CDBF",
+            "nu": "#D3A2E6",
+            "ty": "#9DC2EE",
+            "er": "#FF8C7A",
+            "green": "#9CC9A0",
+            "yellow": "#E7C48F",
+            "blue": "#8FB4E0",
+            "sel": "#503539"
+          }
+        },
+        {
+          "name": "Rosewood Light",
+          "appearance": "light",
+          "colors": {
+            "bg": "#F5E9E7",
+            "panel": "#EBDCDA",
+            "tx": "#3D2629",
+            "cm": "#7E6A6B",
+            "kw": "#B33C49",
+            "st": "#9B5328",
+            "fn": "#28716A",
+            "nu": "#7F4F9C",
+            "ty": "#2F5E9C",
+            "er": "#B8382C",
+            "green": "#3B764C",
+            "yellow": "#8E611E",
+            "blue": "#3566A8",
+            "sel": "#E8D2D0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mocha Berry",
+      "file": "mocha-berry",
+      "variants": [
+        {
+          "name": "Mocha Berry Dark",
+          "appearance": "dark",
+          "colors": {
+            "bg": "#3A2830",
+            "panel": "#2D1D24",
+            "tx": "#F1E4E6",
+            "cm": "#A38B93",
+            "kw": "#E88FB0",
+            "st": "#EDB391",
+            "fn": "#7FC9C9",
+            "nu": "#B9A4EA",
+            "ty": "#9FC6EE",
+            "er": "#FF8E86",
+            "green": "#9CC9A0",
+            "yellow": "#E7C48F",
+            "blue": "#8FB4E0",
+            "sel": "#4F3943"
+          }
+        },
+        {
+          "name": "Mocha Berry Light",
+          "appearance": "light",
+          "colors": {
+            "bg": "#F4E9EC",
+            "panel": "#EADCE0",
+            "tx": "#3B2830",
+            "cm": "#7C6A73",
+            "kw": "#AF3C6A",
+            "st": "#995429",
+            "fn": "#277171",
+            "nu": "#6F55AE",
+            "ty": "#2F5E9C",
+            "er": "#B8382C",
+            "green": "#3B774D",
+            "yellow": "#8E611E",
+            "blue": "#3566A8",
+            "sel": "#E6D0D8"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cocoa Copper",
+      "file": "cocoa-copper",
+      "variants": [
+        {
+          "name": "Cocoa Copper Dark",
+          "appearance": "dark",
+          "colors": {
+            "bg": "#3A2B2A",
+            "panel": "#2D2221",
+            "tx": "#F1E5DE",
+            "cm": "#A39088",
+            "kw": "#EE8F7C",
+            "st": "#EAB297",
+            "fn": "#8CCBC4",
+            "nu": "#C5A5E6",
+            "ty": "#9DC4EE",
+            "er": "#FF8E7C",
+            "green": "#9CC9A0",
+            "yellow": "#E7C48F",
+            "blue": "#8FB4E0",
+            "sel": "#4C3A38"
+          }
+        },
+        {
+          "name": "Cocoa Copper Light",
+          "appearance": "light",
+          "colors": {
+            "bg": "#F4ECE6",
+            "panel": "#EADFD7",
+            "tx": "#3A2B2A",
+            "cm": "#7A6D67",
+            "kw": "#B83C34",
+            "st": "#915934",
+            "fn": "#2C716A",
+            "nu": "#7D579E",
+            "ty": "#2F5E9C",
+            "er": "#BA392C",
+            "green": "#3B774D",
+            "yellow": "#90621E",
+            "blue": "#3566A8",
+            "sel": "#E5D5CB"
+          }
+        }
+      ]
+    }
+  ]
+}
