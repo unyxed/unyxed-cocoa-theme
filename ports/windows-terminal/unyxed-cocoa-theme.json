@@ -7,8 +7,8 @@
       "foreground": "#F0E3DF",
       "cursorColor": "#ED8888",
       "selectionBackground": "#4E3A3E",
-      "black": "#66585A",
-      "brightBlack": "#A08A8A",
+      "black": "#9F9291",
+      "brightBlack": "#C3B1AF",
       "red": "#F66C75",
       "brightRed": "#F7828A",
       "green": "#A6C062",
@@ -21,8 +21,8 @@
       "brightPurple": "#E5A3E6",
       "cyan": "#53D2BD",
       "brightCyan": "#6DD9C7",
-      "white": "#C2B5B2",
-      "brightWhite": "#F4EBE9"
+      "white": "#AEA09F",
+      "brightWhite": "#CEC1BE"
     },
     {
       "name": "Cocoa Rose Light",
@@ -30,8 +30,8 @@
       "foreground": "#3B2A2D",
       "cursorColor": "#A34445",
       "selectionBackground": "#E6D3CD",
-      "black": "#3B2A2D",
-      "brightBlack": "#7D6B6D",
+      "black": "#766869",
+      "brightBlack": "#5C4A4D",
       "red": "#961227",
       "brightRed": "#841022",
       "green": "#436517",
@@ -44,8 +44,8 @@
       "brightPurple": "#4F1853",
       "cyan": "#00625E",
       "brightCyan": "#005653",
-      "white": "#BCB1AF",
-      "brightWhite": "#FAF5F3"
+      "white": "#564648",
+      "brightWhite": "#1D1516"
     },
     {
       "name": "Rosewood Dark",
@@ -53,8 +53,8 @@
       "foreground": "#F2E4E2",
       "cursorColor": "#E37B7C",
       "selectionBackground": "#503539",
-      "black": "#695657",
-      "brightBlack": "#A58A8C",
+      "black": "#9F8E8E",
+      "brightBlack": "#C3ADAE",
       "red": "#FF8C7A",
       "brightRed": "#FF9D8E",
       "green": "#9CC9A0",
@@ -67,8 +67,8 @@
       "brightPurple": "#D3AEEE",
       "cyan": "#7EC8B2",
       "brightCyan": "#91D0BE",
-      "white": "#C4B4B4",
-      "brightWhite": "#F6ECEB"
+      "white": "#B1A1A0",
+      "brightWhite": "#D1C2C1"
     },
     {
       "name": "Rosewood Light",
@@ -76,8 +76,8 @@
       "foreground": "#3D2629",
       "cursorColor": "#A34249",
       "selectionBackground": "#E8D2D0",
-      "black": "#3D2629",
-      "brightBlack": "#7E6A6B",
+      "black": "#7A6668",
+      "brightBlack": "#5E484A",
       "red": "#B8382C",
       "brightRed": "#A23127",
       "green": "#3B764C",
@@ -90,8 +90,8 @@
       "brightPurple": "#694684",
       "cyan": "#295142",
       "brightCyan": "#24473A",
-      "white": "#BEAEAE",
-      "brightWhite": "#FAF4F3"
+      "white": "#584245",
+      "brightWhite": "#1E1314"
     },
     {
       "name": "Mocha Berry Dark",
@@ -99,8 +99,8 @@
       "foreground": "#F1E4E6",
       "cursorColor": "#E78FB3",
       "selectionBackground": "#4F3943",
-      "black": "#68575E",
-      "brightBlack": "#A38B93",
+      "black": "#A09095",
+      "brightBlack": "#C3AFB5",
       "red": "#FF8E86",
       "brightRed": "#FF9F98",
       "green": "#9CC9A0",
@@ -113,8 +113,8 @@
       "brightPurple": "#C4A3E4",
       "cyan": "#8BC7BB",
       "brightCyan": "#9CCFC5",
-      "white": "#C3B5B8",
-      "brightWhite": "#F5ECEE"
+      "white": "#B0A1A5",
+      "brightWhite": "#D0C2C5"
     },
     {
       "name": "Mocha Berry Light",
@@ -122,8 +122,8 @@
       "foreground": "#3B2830",
       "cursorColor": "#9E4270",
       "selectionBackground": "#E6D0D8",
-      "black": "#3B2830",
-      "brightBlack": "#7C6A73",
+      "black": "#76666C",
+      "brightBlack": "#5B4851",
       "red": "#B8382C",
       "brightRed": "#A23127",
       "green": "#3B774D",
@@ -136,8 +136,8 @@
       "brightPurple": "#5B3873",
       "cyan": "#214C3E",
       "brightCyan": "#1D4337",
-      "white": "#BCAFB4",
-      "brightWhite": "#FAF4F6"
+      "white": "#56444B",
+      "brightWhite": "#1D1418"
     },
     {
       "name": "Cocoa Copper Dark",
@@ -145,8 +145,8 @@
       "foreground": "#F1E5DE",
       "cursorColor": "#E58076",
       "selectionBackground": "#4C3A38",
-      "black": "#685A57",
-      "brightBlack": "#A39088",
+      "black": "#A0938F",
+      "brightBlack": "#C3B3AB",
       "red": "#FF8E7C",
       "brightRed": "#FF9F90",
       "green": "#9CC9A0",
@@ -159,8 +159,8 @@
       "brightPurple": "#D0AFE8",
       "cyan": "#94B9A6",
       "brightCyan": "#A4C4B3",
-      "white": "#C3B6B1",
-      "brightWhite": "#F5EDE8"
+      "white": "#AFA29D",
+      "brightWhite": "#CFC3BD"
     },
     {
       "name": "Cocoa Copper Light",
@@ -168,8 +168,8 @@
       "foreground": "#3A2B2A",
       "cursorColor": "#892B32",
       "selectionBackground": "#E5D5CB",
-      "black": "#3A2B2A",
-      "brightBlack": "#7A6D67",
+      "black": "#766966",
+      "brightBlack": "#594B48",
       "red": "#BA392C",
       "brightRed": "#A43227",
       "green": "#3B774D",
@@ -182,8 +182,8 @@
       "brightPurple": "#6D4C89",
       "cyan": "#31705D",
       "brightCyan": "#2B6352",
-      "white": "#BCB2AE",
-      "brightWhite": "#FAF6F2"
+      "white": "#554745",
+      "brightWhite": "#1C1515"
     }
   ]
 }
