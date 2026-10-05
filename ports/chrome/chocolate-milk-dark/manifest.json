@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Chocolate Milk Dark",
+  "version": "0.6.0",
+  "description": "Chocolate Milk Dark, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        63,
+        47,
+        40
+      ],
+      "frame_inactive": [
+        63,
+        47,
+        40
+      ],
+      "frame_incognito": [
+        80,
+        61,
+        59
+      ],
+      "frame_incognito_inactive": [
+        80,
+        61,
+        59
+      ],
+      "background_tab": [
+        63,
+        47,
+        40
+      ],
+      "background_tab_inactive": [
+        63,
+        47,
+        40
+      ],
+      "background_tab_incognito": [
+        63,
+        47,
+        40
+      ],
+      "toolbar": [
+        74,
+        56,
+        47
+      ],
+      "tab_text": [
+        242,
+        231,
+        222
+      ],
+      "tab_background_text": [
+        183,
+        170,
+        161
+      ],
+      "tab_background_text_inactive": [
+        179,
+        160,
+        151
+      ],
+      "bookmark_text": [
+        242,
+        231,
+        222
+      ],
+      "toolbar_text": [
+        242,
+        231,
+        222
+      ],
+      "toolbar_button_icon": [
+        208,
+        196,
+        187
+      ],
+      "omnibox_background": [
+        84,
+        66,
+        58
+      ],
+      "omnibox_text": [
+        242,
+        231,
+        222
+      ],
+      "ntp_background": [
+        74,
+        56,
+        47
+      ],
+      "ntp_text": [
+        242,
+        231,
+        222
+      ],
+      "ntp_link": [
+        152,
+        184,
+        218
+      ],
+      "ntp_header": [
+        63,
+        47,
+        40
+      ],
+      "button_background": [
+        84,
+        66,
+        58
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

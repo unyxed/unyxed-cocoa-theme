@@ -120,7 +120,8 @@ that Gruvbox has no key for are placed in `EXTRA`, in the group closest in meani
 
 Contrast is measured on `bg`. Defaults live in `DEFAULT_RULES` in `tools/build.py`; `palettes.json`
 overrides them per appearance under `rules` (currently: syntax 4.8 on light themes, chroma 50 on dark
-and 45 on light), and a variant can override them with its own `rules` object.
+and 45 on light), and a variant can override them with its own `rules` object (currently only Chocolate Milk:
+its soft, milky hues use lower `chroma` and `spread`; contrast and `distinct` stay at the defaults).
 
 | Rule | Default | Checks |
 |---|---|---|

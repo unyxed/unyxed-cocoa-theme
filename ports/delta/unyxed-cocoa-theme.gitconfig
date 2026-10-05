@@ -172,3 +172,45 @@
     hunk-header-line-number-style = "#00497C"
     commit-decoration-style = "#D1C6BF" box
     blame-palette = "#F4ECE6 #EBE2DD #E9E0DB"
+
+[delta "chocolate-milk-dark"]
+    dark = true
+    syntax-theme = Chocolate Milk Dark
+    minus-style = syntax "#6C483F"
+    minus-emph-style = syntax "#87554B"
+    plus-style = syntax "#5E5540"
+    plus-emph-style = syntax "#6D6A4C"
+    map-styles = bold purple => syntax "#644D4E", bold cyan => syntax "#585549"
+    line-numbers-minus-style = "#F4887D"
+    line-numbers-plus-style = "#B0CA85"
+    line-numbers-zero-style = "#9E8B82"
+    line-numbers-left-style = "#4D3E37"
+    line-numbers-right-style = "#4D3E37"
+    file-style = "#F2E7DE" bold
+    file-decoration-style = "#584941" ul
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#584941" box
+    hunk-header-line-number-style = "#98B8DA"
+    commit-decoration-style = "#584941" box
+    blame-palette = "#4A382F #524138 #54423A"
+
+[delta "chocolate-milk-light"]
+    light = true
+    syntax-theme = Chocolate Milk Light
+    minus-style = syntax "#E4CAC6"
+    minus-emph-style = syntax "#D9AFAC"
+    plus-style = syntax "#D2D3C2"
+    plus-emph-style = syntax "#B9BFA5"
+    map-styles = bold purple => syntax "#DDCDD4", bold cyan => syntax "#CBD3CD"
+    line-numbers-minus-style = "#AC4343"
+    line-numbers-plus-style = "#536F30"
+    line-numbers-zero-style = "#94867D"
+    line-numbers-left-style = "#DBD0C9"
+    line-numbers-right-style = "#DBD0C9"
+    file-style = "#46322B" bold
+    file-decoration-style = "#D1C6BF" ul
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#D1C6BF" box
+    hunk-header-line-number-style = "#2C4A73"
+    commit-decoration-style = "#D1C6BF" box
+    blame-palette = "#F2ECE7 #E9E3DE #E8E1DC"

@@ -194,6 +194,58 @@
           }
         }
       ]
+    },
+    {
+      "name": "Chocolate Milk",
+      "file": "chocolate-milk",
+      "variants": [
+        {
+          "name": "Chocolate Milk Dark",
+          "appearance": "dark",
+          "colors": {
+            "bg": "#4A382F",
+            "panel": "#3F2F28",
+            "tx": "#F2E7DE",
+            "cm": "#B3A097",
+            "sel": "#5C4840",
+            "accent": "#E0A86E",
+            "red": "#F4887D",
+            "orange": "#E89C5F",
+            "yellow": "#F1D180",
+            "green": "#B0CA85",
+            "aqua": "#90C8B0",
+            "blue": "#98B8DA",
+            "purple": "#CCA2CA"
+          },
+          "rules": {
+            "chroma": 35.0,
+            "spread": 15.0
+          }
+        },
+        {
+          "name": "Chocolate Milk Light",
+          "appearance": "light",
+          "colors": {
+            "bg": "#F2ECE7",
+            "panel": "#E8DED7",
+            "tx": "#46322B",
+            "cm": "#7C6C63",
+            "sel": "#E3D6CC",
+            "accent": "#8E5B34",
+            "red": "#AC4343",
+            "orange": "#9C531F",
+            "yellow": "#7B6415",
+            "green": "#536F30",
+            "aqua": "#2D7165",
+            "blue": "#2C4A73",
+            "purple": "#87528A"
+          },
+          "rules": {
+            "chroma": 38.0,
+            "spread": 12.0
+          }
+        }
+      ]
     }
   ]
 }

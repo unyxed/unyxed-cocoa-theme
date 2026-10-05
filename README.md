@@ -1,6 +1,6 @@
 # Unyxed Cocoa Themes
 
-Rich, low-glare cocoa themes in four flavors, each with a dark and a light variant.
+Rich, low-glare cocoa themes in five flavors, each with a dark and a light variant.
 
 Every theme ships for **Zed** and a long list of other apps, all generated from one file, `palettes.json`, so a color fixed there reaches every app on the next build:
 
@@ -17,6 +17,7 @@ Every theme ships for **Zed** and a long list of other apps, all generated from 
 | Rosewood | Rosewood Dark, Rosewood Light |
 | Mocha Berry | Mocha Berry Dark, Mocha Berry Light |
 | Cocoa Copper | Cocoa Copper Dark, Cocoa Copper Light |
+| Chocolate Milk | Chocolate Milk Dark, Chocolate Milk Light |
 
 `preview/index.html` shows every theme side by side (open it in a browser) with C++, TypeScript and Luau samples, next to Zed's Gruvbox for comparison.
 
