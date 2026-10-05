@@ -2,7 +2,7 @@
   "name": "unyxed-cocoa-theme",
   "displayName": "Unyxed Cocoa Themes",
   "description": "Unyxed Cocoa Themes, generated from palettes.json.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "publisher": "unyxed",
   "license": "UNLICENSED",
   "engines": {
@@ -52,6 +52,16 @@
         "label": "Cocoa Copper Light",
         "uiTheme": "vs",
         "path": "./themes/cocoa-copper-light.json"
+      },
+      {
+        "label": "Chocolate Milk Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolate-milk-dark.json"
+      },
+      {
+        "label": "Chocolate Milk Light",
+        "uiTheme": "vs",
+        "path": "./themes/chocolate-milk-light.json"
       }
     ]
   }

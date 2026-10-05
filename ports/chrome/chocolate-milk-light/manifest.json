@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Chocolate Milk Light",
+  "version": "0.6.0",
+  "description": "Chocolate Milk Light, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        232,
+        222,
+        215
+      ],
+      "frame_inactive": [
+        232,
+        222,
+        215
+      ],
+      "frame_incognito": [
+        220,
+        205,
+        206
+      ],
+      "frame_incognito_inactive": [
+        220,
+        205,
+        206
+      ],
+      "background_tab": [
+        232,
+        222,
+        215
+      ],
+      "background_tab_inactive": [
+        232,
+        222,
+        215
+      ],
+      "background_tab_incognito": [
+        232,
+        222,
+        215
+      ],
+      "toolbar": [
+        242,
+        236,
+        231
+      ],
+      "tab_text": [
+        70,
+        50,
+        43
+      ],
+      "tab_background_text": [
+        109,
+        97,
+        91
+      ],
+      "tab_background_text_inactive": [
+        124,
+        108,
+        99
+      ],
+      "bookmark_text": [
+        70,
+        50,
+        43
+      ],
+      "toolbar_text": [
+        70,
+        50,
+        43
+      ],
+      "toolbar_button_icon": [
+        104,
+        87,
+        81
+      ],
+      "omnibox_background": [
+        232,
+        225,
+        220
+      ],
+      "omnibox_text": [
+        70,
+        50,
+        43
+      ],
+      "ntp_background": [
+        242,
+        236,
+        231
+      ],
+      "ntp_text": [
+        70,
+        50,
+        43
+      ],
+      "ntp_link": [
+        44,
+        74,
+        115
+      ],
+      "ntp_header": [
+        232,
+        222,
+        215
+      ],
+      "button_background": [
+        232,
+        225,
+        220
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

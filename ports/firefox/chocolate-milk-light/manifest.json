@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "Chocolate Milk Light",
+  "version": "0.6.0",
+  "description": "Chocolate Milk Light, generated from palettes.json.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "chocolate-milk-light@unyxed-cocoa-theme",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#E8DED7",
+      "frame_inactive": "#E8DED7",
+      "tab_background_text": "#6D615B",
+      "tab_text": "#46322B",
+      "tab_selected": "#F2ECE7",
+      "tab_line": "#8E5B34",
+      "tab_loading": "#8E5B34",
+      "tab_background_separator": "#D1C6BF",
+      "toolbar": "#F2ECE7",
+      "toolbar_text": "#46322B",
+      "toolbar_field": "#E8E1DC",
+      "toolbar_field_text": "#46322B",
+      "toolbar_field_border": "#DBD0C9",
+      "toolbar_field_focus": "#E8E1DC",
+      "toolbar_field_text_focus": "#46322B",
+      "toolbar_field_border_focus": "#8E5B34",
+      "toolbar_field_highlight": "#C9B2A1",
+      "toolbar_field_highlight_text": "#46322B",
+      "toolbar_top_separator": "#E8DED7",
+      "toolbar_bottom_separator": "#DBD0C9",
+      "toolbar_vertical_separator": "#D1C6BF",
+      "popup": "#F7F3EF",
+      "popup_text": "#46322B",
+      "popup_border": "#D1C6BF",
+      "popup_highlight": "#E3D6CC",
+      "popup_highlight_text": "#46322B",
+      "sidebar": "#E8DED7",
+      "sidebar_text": "#46322B",
+      "sidebar_border": "#DBD0C9",
+      "sidebar_highlight": "#E3D6CC",
+      "sidebar_highlight_text": "#46322B",
+      "button_background_hover": "#E1D9D4",
+      "button_background_active": "#DAD2CD",
+      "icons": "#685751",
+      "icons_attention": "#8E5B34",
+      "ntp_background": "#F2ECE7",
+      "ntp_text": "#46322B",
+      "ntp_card_background": "#F7F3EF"
+    },
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    }
+  }
+}
