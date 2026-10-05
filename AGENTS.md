@@ -13,7 +13,7 @@ Instructions for any coding agent (Claude Code, opencode, Codex, etc.) working i
 
 ## Golden rules
 
-1. `palettes.json` is the only source of truth. Never hand-edit `themes/` or `ports/`:
+1. `palettes.json` is the only source of truth. Never hand-edit `themes/`, `ports/` or `preview/`:
    they are regenerated and your edits will be lost.
 2. After any change run `python tools/build.py`. It must finish with no errors. Treat warnings as
    bugs to fix unless you can explain them to the owner.
@@ -34,6 +34,7 @@ ports/windows-terminal/  GENERATED Windows Terminal fragment (all schemes)
 ports/obsidian/          GENERATED AnuPpuccin CSS snippets
 ports/claude-code/       GENERATED Claude Code custom themes, one per variant
 ports/opencode/          GENERATED opencode themes, one per variant
+preview/index.html       GENERATED visual preview for the owner (agents: do not read it, see below)
 install.ps1              copies ports into Windows Terminal, Claude Code, opencode and Obsidian vaults
 extension.toml           Zed extension manifest
 ```
@@ -121,9 +122,16 @@ and 45 on light), and a variant can override them with its own `rules` object.
 
 **Pending themes.** A variant with `"pending": true` still has its colors from before the Gruvbox
 structure. The build checks its terminal colors and Zed keys as usual but only warns about its text,
-hue and sharpness rules. Check `palettes.json` for which variants (if
+hue and sharpness rules, and the preview shows it faded. Check `palettes.json` for which variants (if
 any) still carry the flag. Migrating one means redesigning its seven hues until the build passes
 without the flag, then removing `pending`. Do not add `pending` to hide a failing new theme.
+
+## The preview
+
+`python tools/build.py` regenerates `preview/index.html` on every run: every theme side by side with
+C++, TypeScript and Luau samples, next to Zed's Gruvbox. It is for the owner to open in a browser.
+Agents must not read it: it is about 400 KB of generated HTML and costs a lot of tokens, and the build's
+validators already check everything it shows. Commit it with the other generated files.
 
 ## Adding a theme
 
@@ -133,7 +141,9 @@ without the flag, then removing `pending`. Do not add `pending` to hide a failin
 2. Run `python tools/build.py --fix`, then `python tools/build.py`. Fix any warnings and errors.
    `--fix` only repairs contrast; if `distinct`, `chroma` or `spread` fails, move hues or lightness by
    hand (keep each hue recognisably red, orange, yellow ..., see the design rules).
-3. Update the theme table in `README.md`, bump `version` in `extension.toml` (minor version for new
+3. Tell the owner to open `preview/index.html` in a browser to compare the new theme with the others
+   and Zed's Gruvbox.
+4. Update the theme table in `README.md`, bump `version` in `extension.toml` (minor version for new
    themes, patch for color tweaks), commit.
 
 ## Changing a color

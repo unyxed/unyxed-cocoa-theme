@@ -13,6 +13,8 @@ all generated from one file: `palettes.json`.
 | Mocha Berry | Mocha Berry Dark, Mocha Berry Light |
 | Cocoa Copper | Cocoa Copper Dark, Cocoa Copper Light |
 
+`preview/index.html` shows every theme side by side (open it in a browser) with C++, TypeScript and Luau samples, next to Zed's Gruvbox for comparison.
+
 ## Syntax colors
 
 Syntax highlighting follows the structure of Zed's built-in Gruvbox theme: seven hues (red, orange,
@@ -23,6 +25,8 @@ properties stay in the plain text color. The hues themselves are each theme's ow
 and the build enforces a minimum CIELAB difference (delta E 25) between them and the text color.
 It works in any language, including third-party grammars, because it only uses Zed's common
 capture names.
+
+A theme still being moved to this structure is marked "pending" in the preview.
 
 ## Install
 
