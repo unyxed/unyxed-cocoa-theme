@@ -25,8 +25,7 @@ and the build enforces a minimum CIELAB difference (delta E 25) between them and
 It works in any language, including third-party grammars, because it only uses Zed's common
 capture names.
 
-Cocoa Rose is fully on this structure. Rosewood, Mocha Berry and Cocoa Copper still use their older
-colors and are being migrated; the preview marks them as pending.
+A theme still being moved to this structure is marked "pending" in the preview.
 
 ## Install
 

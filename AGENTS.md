@@ -119,9 +119,9 @@ and 45 on light), and a variant can override them with its own `rules` object.
 
 **Pending themes.** A variant with `"pending": true` still has its colors from before the Gruvbox
 structure. The build checks its terminal colors and Zed keys as usual but only warns about its text,
-hue and sharpness rules, and the preview shows it faded. Rosewood, Mocha Berry and Cocoa Copper are
-pending; only Cocoa Rose is migrated. Migrating one means redesigning its seven hues until the build
-passes without the flag, then removing `pending`. Do not add `pending` to hide a failing new theme.
+hue and sharpness rules, and the preview shows it faded. Check `palettes.json` for which variants (if
+any) still carry the flag. Migrating one means redesigning its seven hues until the build passes
+without the flag, then removing `pending`. Do not add `pending` to hide a failing new theme.
 
 ## Adding a theme
 
@@ -206,7 +206,7 @@ Terminal schemes both come from it. Rules (build **errors**, contrast measured o
 
 ## Before you finish a task
 
-- [ ] `python tools/build.py` passes with no errors, and no warnings other than the pending-themes one
+- [ ] `python tools/build.py` passes with no errors and no warnings (the pending-themes warning is expected only while a variant carries `pending`)
 - [ ] `python tools/build.py --check -v`: no terminal slot is near its floor by accident
 - [ ] preview checked for anything that changed visually
 - [ ] README theme table and `extension.toml` version updated if themes were added
