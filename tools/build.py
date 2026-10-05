@@ -1134,7 +1134,8 @@ def main():
         if isinstance(content, bytes):
             path.write_bytes(content)
         else:
-            path.write_text(content, encoding="utf-8", newline="\n")
+            # .gitattributes checks PowerShell files out with CRLF; match it so git sees no change
+            path.write_text(content, encoding="utf-8", newline="\r\n" if rel.endswith(".ps1") else "\n")
 
     pv = ROOT / "preview"
     pv.mkdir(exist_ok=True)
