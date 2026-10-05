@@ -6,7 +6,8 @@ Instructions for any coding agent (Claude Code, opencode, Codex, etc.) working i
 
 - The owner uses these themes daily and relies on agents to design and maintain them. They are not a
   theme designer. Everything must work out of the box: no missing UI colors, no syntax bugs.
-- This repo produces one Zed theme extension plus ports for Windows Terminal and Obsidian (AnuPpuccin).
+- This repo produces one Zed theme extension plus ports for Windows Terminal, Claude Code, opencode
+  and Obsidian (AnuPpuccin). Antigravity CLI is covered by the terminal schemes (see Ports).
 - Sibling repo: `unyxed-idk-theme`. Both repos use the **same** `tools/`, `install.ps1` and `reference/`.
   If you change any of those here, make the identical change there.
 
@@ -31,8 +32,10 @@ reference/gruvbox.json   Zed's stock Gruvbox theme: the syntax structure our the
 themes/*.json            GENERATED Zed theme families
 ports/windows-terminal/  GENERATED Windows Terminal fragment (all schemes)
 ports/obsidian/          GENERATED AnuPpuccin CSS snippets
-preview/index.html       GENERATED visual preview
-install.ps1              copies ports into Windows Terminal and Obsidian vaults
+ports/claude-code/       GENERATED Claude Code custom themes, one per variant
+ports/opencode/          GENERATED opencode themes, one per variant
+preview/index.html       GENERATED visual preview for the owner (agents: do not read it, see below)
+install.ps1              copies ports into Windows Terminal, Claude Code, opencode and Obsidian vaults
 extension.toml           Zed extension manifest
 ```
 
@@ -77,7 +80,7 @@ that Gruvbox has no key for are placed in `EXTRA`, in the group closest in meani
 
 - **Language-agnostic by design.** The themes must look right in every language out of the box, like
   mainstream themes do. Never tune colors or add syntax keys for one language (the owner's own C++,
-  TypeScript and Luau are only preview samples, not targets). Design on Zed's shared capture names
+  TypeScript and Luau are only examples, not targets). Design on Zed's shared capture names
   (`keyword`, `type`, `function`, `property`, ...) so third-party extensions (Luau, GLSL, Odin, ...)
   resolve through the longest-prefix rule without needing their own entries. Any new mapping must be
   justified by captures that several grammars in `reference/zed.json` use.
@@ -123,6 +126,13 @@ hue and sharpness rules, and the preview shows it faded. Check `palettes.json` f
 any) still carry the flag. Migrating one means redesigning its seven hues until the build passes
 without the flag, then removing `pending`. Do not add `pending` to hide a failing new theme.
 
+## The preview
+
+`python tools/build.py` regenerates `preview/index.html` on every run: every theme side by side with
+C++, TypeScript and Luau samples, next to Zed's Gruvbox. It is for the owner to open in a browser.
+Agents must not read it: it is about 400 KB of generated HTML and costs a lot of tokens, and the build's
+validators already check everything it shows. Commit it with the other generated files.
+
 ## Adding a theme
 
 1. Add a family (or a variant to a family) in `palettes.json` with all 13 roles.
@@ -131,13 +141,14 @@ without the flag, then removing `pending`. Do not add `pending` to hide a failin
 2. Run `python tools/build.py --fix`, then `python tools/build.py`. Fix any warnings and errors.
    `--fix` only repairs contrast; if `distinct`, `chroma` or `spread` fails, move hues or lightness by
    hand (keep each hue recognisably red, orange, yellow ..., see the design rules).
-3. Open `preview/index.html` and check the new theme next to the existing ones and Zed's Gruvbox.
+3. Tell the owner to open `preview/index.html` in a browser to compare the new theme with the others
+   and Zed's Gruvbox.
 4. Update the theme table in `README.md`, bump `version` in `extension.toml` (minor version for new
    themes, patch for color tweaks), commit.
 
 ## Changing a color
 
-Edit the role in `palettes.json`, build, check the preview, commit with a message saying what and why
+Edit the role in `palettes.json`, build, commit with a message saying what and why
 (for example "Cocoa Rose Light: darker green, strings blended with text").
 
 ## Keeping up with Zed
@@ -202,13 +213,33 @@ Terminal schemes both come from it. Rules (build **errors**, contrast measured o
   `.theme-light`, which every AnuPpuccin flavor reads before its own colors. One snippet per family, or
   one per variant when a family has several variants of the same appearance (they would collide).
   The owner enables one snippet at a time.
+- **Claude Code**: one `<theme-slug>.json` per variant for `~/.claude/themes/` (`name`, `base`
+  dark/light, `overrides` of Claude Code's color tokens; reference:
+  https://code.claude.com/docs/en/terminal-config#create-a-custom-theme). Claude Code draws on the
+  terminal's own background and has no background token, so these themes assume the matching
+  Windows Terminal scheme (terminal background = `bg`). The accent is `claude`; status, mode and
+  subagent colors use the seven hues; diff and message backgrounds are tints of `bg`.
+- **opencode**: one `<theme-slug>.json` per variant for `~/.config/opencode/themes/` (schema
+  https://opencode.ai/theme.json). opencode paints its own backgrounds (`bg`, `panel`). Its syntax and
+  markdown keys follow the same Gruvbox groups as Zed (keyword red, function/string green, type
+  yellow, number purple, operator aqua, headings green, inline code blue).
+- **Antigravity CLI** (`agy`) has no custom theme files, only built-in schemes. Leave its
+  `colorScheme` on `"terminal"` (the default): it then draws with the terminal's 16 ANSI colors,
+  which our Windows Terminal and Zed terminal schemes already provide and the terminal rules keep
+  readable.
+- **Port readability** (build **errors**, same floors as the terminal): Claude Code text and accent
+  tokens 4.5:1 on `bg`, `inactive`/`subtle` 3.5:1, `text` 4.5:1 on every tinted background (diffs,
+  message backgrounds, selection), `inverseText` 4.5:1 on the colors it sits on; opencode `text`
+  4.5:1 on every background, `textMuted` and diff line numbers 3.5:1, status/accent colors 4.5:1 on
+  both `background` and `backgroundPanel`. Tinted backgrounds back off (`tint()`) and ink colors are
+  nudged (`readable()`, same hue) only as far as these need, so a port can differ by a hair from
+  the palette on a light theme whose panel is darker than its background.
 - Run `install.ps1` after building to copy ports into place.
 
 ## Before you finish a task
 
 - [ ] `python tools/build.py` passes with no errors and no warnings (the pending-themes warning is expected only while a variant carries `pending`)
 - [ ] `python tools/build.py --check -v`: no terminal slot is near its floor by accident
-- [ ] preview checked for anything that changed visually
 - [ ] README theme table and `extension.toml` version updated if themes were added
 - [ ] shared files mirrored to `unyxed-idk-theme` if `tools/`, `install.ps1` or `reference/` changed
 - [ ] source and generated files committed together
