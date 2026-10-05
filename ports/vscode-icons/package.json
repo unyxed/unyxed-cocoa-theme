@@ -1,0 +1,58 @@
+{
+  "name": "unyxed-cocoa-icons",
+  "displayName": "Unyxed Cocoa Icons",
+  "description": "File and folder icons for coding, in the colors of Unyxed Cocoa Themes.",
+  "publisher": "unyxed",
+  "version": "0.3.2",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "cocoa-rose-dark-icons",
+        "label": "Cocoa Rose Dark Icons",
+        "path": "./themes/cocoa-rose-dark.json"
+      },
+      {
+        "id": "cocoa-rose-light-icons",
+        "label": "Cocoa Rose Light Icons",
+        "path": "./themes/cocoa-rose-light.json"
+      },
+      {
+        "id": "rosewood-dark-icons",
+        "label": "Rosewood Dark Icons",
+        "path": "./themes/rosewood-dark.json"
+      },
+      {
+        "id": "rosewood-light-icons",
+        "label": "Rosewood Light Icons",
+        "path": "./themes/rosewood-light.json"
+      },
+      {
+        "id": "mocha-berry-dark-icons",
+        "label": "Mocha Berry Dark Icons",
+        "path": "./themes/mocha-berry-dark.json"
+      },
+      {
+        "id": "mocha-berry-light-icons",
+        "label": "Mocha Berry Light Icons",
+        "path": "./themes/mocha-berry-light.json"
+      },
+      {
+        "id": "cocoa-copper-dark-icons",
+        "label": "Cocoa Copper Dark Icons",
+        "path": "./themes/cocoa-copper-dark.json"
+      },
+      {
+        "id": "cocoa-copper-light-icons",
+        "label": "Cocoa Copper Light Icons",
+        "path": "./themes/cocoa-copper-light.json"
+      }
+    ]
+  }
+}
