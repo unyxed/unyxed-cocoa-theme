@@ -77,15 +77,14 @@
             "cm": "#A58A8C",
             "sel": "#503539",
             "accent": "#E37B7C",
-            "red": "#FF8C7A",
-            "orange": "#EAAD85",
-            "yellow": "#E7C48F",
-            "green": "#9CC9A0",
-            "aqua": "#7EC8B2",
-            "blue": "#8FB4E0",
-            "purple": "#CBA0EB"
-          },
-          "pending": true
+            "red": "#F37065",
+            "orange": "#F59758",
+            "yellow": "#FECE69",
+            "green": "#9DC56B",
+            "aqua": "#56D5C0",
+            "blue": "#4CA7EE",
+            "purple": "#D29CF1"
+          }
         },
         {
           "name": "Rosewood Light",
@@ -97,15 +96,14 @@
             "cm": "#7E6A6B",
             "sel": "#E8D2D0",
             "accent": "#A34249",
-            "red": "#B8382C",
-            "orange": "#915223",
-            "yellow": "#8E611E",
-            "green": "#3B764C",
-            "aqua": "#295142",
-            "blue": "#3566A8",
-            "purple": "#775096"
-          },
-          "pending": true
+            "red": "#961424",
+            "orange": "#9B4510",
+            "yellow": "#816103",
+            "green": "#3E661D",
+            "aqua": "#00625B",
+            "blue": "#004884",
+            "purple": "#4E1F63"
+          }
         }
       ]
     },
@@ -123,15 +121,14 @@
             "cm": "#A38B93",
             "sel": "#4F3943",
             "accent": "#E78FB3",
-            "red": "#FF8E86",
-            "orange": "#E1B28B",
-            "yellow": "#E7C48F",
-            "green": "#9CC9A0",
-            "aqua": "#8BC7BB",
-            "blue": "#8FB4E0",
-            "purple": "#B993DF"
-          },
-          "pending": true
+            "red": "#F46E6B",
+            "orange": "#F39856",
+            "yellow": "#FBCF68",
+            "green": "#97C66E",
+            "aqua": "#4CD5C7",
+            "blue": "#5EA4EF",
+            "purple": "#BA94F1"
+          }
         },
         {
           "name": "Mocha Berry Light",
@@ -143,15 +140,14 @@
             "cm": "#7C6A73",
             "sel": "#E6D0D8",
             "accent": "#9E4270",
-            "red": "#B8382C",
-            "orange": "#905322",
-            "yellow": "#8E611E",
-            "green": "#3B774D",
-            "aqua": "#214C3E",
-            "blue": "#3566A8",
-            "purple": "#674083"
-          },
-          "pending": true
+            "red": "#991629",
+            "orange": "#9A4612",
+            "yellow": "#806102",
+            "green": "#3B671F",
+            "aqua": "#00625E",
+            "blue": "#004884",
+            "purple": "#4C1F67"
+          }
         }
       ]
     },
@@ -169,15 +165,14 @@
             "cm": "#A39088",
             "sel": "#4C3A38",
             "accent": "#E58076",
-            "red": "#FF8E7C",
-            "orange": "#E3B28F",
-            "yellow": "#E7C48F",
-            "green": "#9CC9A0",
-            "aqua": "#94B9A6",
-            "blue": "#8FB4E0",
-            "purple": "#C8A1E4"
-          },
-          "pending": true
+            "red": "#F46F68",
+            "orange": "#F99551",
+            "yellow": "#FECE69",
+            "green": "#A3C164",
+            "aqua": "#5AD2B8",
+            "blue": "#36A9ED",
+            "purple": "#D79AEE"
+          }
         },
         {
           "name": "Cocoa Copper Light",
@@ -189,15 +184,14 @@
             "cm": "#7A6D67",
             "sel": "#E5D5CB",
             "accent": "#892B32",
-            "red": "#BA392C",
-            "orange": "#8F5930",
-            "yellow": "#90621E",
-            "green": "#3B774D",
-            "aqua": "#31705D",
-            "blue": "#3566A8",
-            "purple": "#7C569C"
-          },
-          "pending": true
+            "red": "#991727",
+            "orange": "#9A4607",
+            "yellow": "#806102",
+            "green": "#476517",
+            "aqua": "#056258",
+            "blue": "#00497C",
+            "purple": "#531D5E"
+          }
         }
       ]
     }

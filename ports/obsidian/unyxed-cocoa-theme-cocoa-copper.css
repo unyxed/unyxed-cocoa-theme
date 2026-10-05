@@ -4,20 +4,20 @@
 
 /* Cocoa Copper Dark */
 .theme-dark {
-  --ctp-custom-rosewater: 233, 201, 179;
+  --ctp-custom-rosewater: 245, 185, 144;
   --ctp-custom-flamingo: 229, 128, 118;
-  --ctp-custom-pink: 219, 154, 192;
-  --ctp-custom-mauve: 200, 161, 228;
-  --ctp-custom-red: 255, 142, 124;
-  --ctp-custom-maroon: 242, 135, 121;
-  --ctp-custom-peach: 227, 178, 143;
-  --ctp-custom-yellow: 231, 196, 143;
-  --ctp-custom-green: 156, 201, 160;
-  --ctp-custom-teal: 148, 185, 166;
-  --ctp-custom-sky: 146, 182, 195;
-  --ctp-custom-sapphire: 144, 182, 207;
-  --ctp-custom-blue: 143, 180, 224;
-  --ctp-custom-lavender: 172, 170, 226;
+  --ctp-custom-pink: 225, 139, 191;
+  --ctp-custom-mauve: 215, 154, 238;
+  --ctp-custom-red: 244, 111, 104;
+  --ctp-custom-maroon: 236, 120, 111;
+  --ctp-custom-peach: 249, 149, 81;
+  --ctp-custom-yellow: 254, 206, 105;
+  --ctp-custom-green: 163, 193, 100;
+  --ctp-custom-teal: 90, 210, 184;
+  --ctp-custom-sky: 72, 190, 210;
+  --ctp-custom-sapphire: 65, 181, 221;
+  --ctp-custom-blue: 54, 169, 237;
+  --ctp-custom-lavender: 134, 162, 238;
   --ctp-custom-text: 241, 229, 222;
   --ctp-custom-subtext1: 214, 201, 195;
   --ctp-custom-subtext0: 190, 177, 172;
@@ -34,20 +34,20 @@
 
 /* Cocoa Copper Light */
 .theme-light {
-  --ctp-custom-rosewater: 105, 68, 45;
+  --ctp-custom-rosewater: 111, 58, 23;
   --ctp-custom-flamingo: 137, 43, 50;
-  --ctp-custom-pink: 146, 76, 117;
-  --ctp-custom-mauve: 124, 86, 156;
-  --ctp-custom-red: 186, 57, 44;
-  --ctp-custom-maroon: 162, 50, 47;
-  --ctp-custom-peach: 143, 89, 48;
-  --ctp-custom-yellow: 144, 98, 30;
-  --ctp-custom-green: 59, 119, 77;
-  --ctp-custom-teal: 49, 112, 93;
-  --ctp-custom-sky: 51, 107, 130;
-  --ctp-custom-sapphire: 52, 105, 146;
-  --ctp-custom-blue: 53, 102, 168;
-  --ctp-custom-lavender: 88, 94, 162;
+  --ctp-custom-pink: 108, 27, 75;
+  --ctp-custom-mauve: 83, 29, 94;
+  --ctp-custom-red: 153, 23, 39;
+  --ctp-custom-maroon: 145, 33, 44;
+  --ctp-custom-peach: 154, 70, 7;
+  --ctp-custom-yellow: 128, 97, 2;
+  --ctp-custom-green: 71, 101, 23;
+  --ctp-custom-teal: 5, 98, 88;
+  --ctp-custom-sky: 2, 86, 106;
+  --ctp-custom-sapphire: 2, 80, 113;
+  --ctp-custom-blue: 0, 73, 124;
+  --ctp-custom-lavender: 42, 51, 109;
   --ctp-custom-text: 58, 43, 42;
   --ctp-custom-subtext1: 86, 72, 70;
   --ctp-custom-subtext0: 110, 97, 95;
