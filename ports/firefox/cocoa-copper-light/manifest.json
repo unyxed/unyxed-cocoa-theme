@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "Cocoa Copper Light",
+  "version": "0.5.0",
+  "description": "Cocoa Copper Light, generated from palettes.json.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "cocoa-copper-light@unyxed-cocoa-theme",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#EADFD7",
+      "frame_inactive": "#EADFD7",
+      "tab_background_text": "#6C615F",
+      "tab_text": "#3A2B2A",
+      "tab_selected": "#F4ECE6",
+      "tab_line": "#892B32",
+      "tab_loading": "#892B32",
+      "tab_background_separator": "#D1C6BF",
+      "toolbar": "#F4ECE6",
+      "toolbar_text": "#3A2B2A",
+      "toolbar_field": "#E9E0DB",
+      "toolbar_field_text": "#3A2B2A",
+      "toolbar_field_border": "#DCD1C9",
+      "toolbar_field_focus": "#E9E0DB",
+      "toolbar_field_text_focus": "#3A2B2A",
+      "toolbar_field_border_focus": "#892B32",
+      "toolbar_field_highlight": "#C7A1A0",
+      "toolbar_field_highlight_text": "#3A2B2A",
+      "toolbar_top_separator": "#EADFD7",
+      "toolbar_bottom_separator": "#DCD1C9",
+      "toolbar_vertical_separator": "#D1C6BF",
+      "popup": "#F8F3EF",
+      "popup_text": "#3A2B2A",
+      "popup_border": "#D1C6BF",
+      "popup_highlight": "#E5D5CB",
+      "popup_highlight_text": "#3A2B2A",
+      "sidebar": "#EADFD7",
+      "sidebar_text": "#3A2B2A",
+      "sidebar_border": "#DCD1C9",
+      "sidebar_highlight": "#E5D5CB",
+      "sidebar_highlight_text": "#3A2B2A",
+      "button_background_hover": "#E1D9D3",
+      "button_background_active": "#DAD1CC",
+      "icons": "#5F5250",
+      "icons_attention": "#892B32",
+      "ntp_background": "#F4ECE6",
+      "ntp_text": "#3A2B2A",
+      "ntp_card_background": "#F8F3EF"
+    },
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    }
+  }
+}

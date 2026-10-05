@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Cocoa Copper Light",
+  "version": "0.5.0",
+  "description": "Cocoa Copper Light, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        234,
+        223,
+        215
+      ],
+      "frame_inactive": [
+        234,
+        223,
+        215
+      ],
+      "frame_incognito": [
+        216,
+        200,
+        200
+      ],
+      "frame_incognito_inactive": [
+        216,
+        200,
+        200
+      ],
+      "background_tab": [
+        234,
+        223,
+        215
+      ],
+      "background_tab_inactive": [
+        234,
+        223,
+        215
+      ],
+      "background_tab_incognito": [
+        234,
+        223,
+        215
+      ],
+      "toolbar": [
+        244,
+        236,
+        230
+      ],
+      "tab_text": [
+        58,
+        43,
+        42
+      ],
+      "tab_background_text": [
+        108,
+        97,
+        95
+      ],
+      "tab_background_text_inactive": [
+        122,
+        109,
+        103
+      ],
+      "bookmark_text": [
+        58,
+        43,
+        42
+      ],
+      "toolbar_text": [
+        58,
+        43,
+        42
+      ],
+      "toolbar_button_icon": [
+        95,
+        82,
+        80
+      ],
+      "omnibox_background": [
+        233,
+        224,
+        219
+      ],
+      "omnibox_text": [
+        58,
+        43,
+        42
+      ],
+      "ntp_background": [
+        244,
+        236,
+        230
+      ],
+      "ntp_text": [
+        58,
+        43,
+        42
+      ],
+      "ntp_link": [
+        0,
+        73,
+        124
+      ],
+      "ntp_header": [
+        234,
+        223,
+        215
+      ],
+      "button_background": [
+        233,
+        224,
+        219
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

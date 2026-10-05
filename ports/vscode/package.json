@@ -1,0 +1,58 @@
+{
+  "name": "unyxed-cocoa-theme",
+  "displayName": "Unyxed Cocoa Themes",
+  "description": "Unyxed Cocoa Themes, generated from palettes.json.",
+  "version": "0.5.0",
+  "publisher": "unyxed",
+  "license": "UNLICENSED",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cocoa Rose Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cocoa-rose-dark.json"
+      },
+      {
+        "label": "Cocoa Rose Light",
+        "uiTheme": "vs",
+        "path": "./themes/cocoa-rose-light.json"
+      },
+      {
+        "label": "Rosewood Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rosewood-dark.json"
+      },
+      {
+        "label": "Rosewood Light",
+        "uiTheme": "vs",
+        "path": "./themes/rosewood-light.json"
+      },
+      {
+        "label": "Mocha Berry Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mocha-berry-dark.json"
+      },
+      {
+        "label": "Mocha Berry Light",
+        "uiTheme": "vs",
+        "path": "./themes/mocha-berry-light.json"
+      },
+      {
+        "label": "Cocoa Copper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cocoa-copper-dark.json"
+      },
+      {
+        "label": "Cocoa Copper Light",
+        "uiTheme": "vs",
+        "path": "./themes/cocoa-copper-light.json"
+      }
+    ]
+  }
+}
