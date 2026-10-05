@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Mocha Berry Dark",
+  "version": "0.3.2",
+  "description": "Mocha Berry Dark, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        45,
+        29,
+        36
+      ],
+      "frame_inactive": [
+        45,
+        29,
+        36
+      ],
+      "frame_incognito": [
+        62,
+        43,
+        61
+      ],
+      "frame_incognito_inactive": [
+        62,
+        43,
+        61
+      ],
+      "background_tab": [
+        45,
+        29,
+        36
+      ],
+      "background_tab_inactive": [
+        45,
+        29,
+        36
+      ],
+      "background_tab_incognito": [
+        45,
+        29,
+        36
+      ],
+      "toolbar": [
+        58,
+        40,
+        48
+      ],
+      "tab_text": [
+        241,
+        228,
+        230
+      ],
+      "tab_background_text": [
+        177,
+        162,
+        166
+      ],
+      "tab_background_text_inactive": [
+        163,
+        139,
+        147
+      ],
+      "bookmark_text": [
+        241,
+        228,
+        230
+      ],
+      "toolbar_text": [
+        241,
+        228,
+        230
+      ],
+      "toolbar_button_icon": [
+        204,
+        190,
+        194
+      ],
+      "omnibox_background": [
+        69,
+        51,
+        59
+      ],
+      "omnibox_text": [
+        241,
+        228,
+        230
+      ],
+      "ntp_background": [
+        58,
+        40,
+        48
+      ],
+      "ntp_text": [
+        241,
+        228,
+        230
+      ],
+      "ntp_link": [
+        94,
+        164,
+        239
+      ],
+      "ntp_header": [
+        45,
+        29,
+        36
+      ],
+      "button_background": [
+        69,
+        51,
+        59
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

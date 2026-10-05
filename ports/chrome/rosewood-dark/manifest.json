@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Rosewood Dark",
+  "version": "0.3.2",
+  "description": "Rosewood Dark, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        45,
+        28,
+        31
+      ],
+      "frame_inactive": [
+        45,
+        28,
+        31
+      ],
+      "frame_incognito": [
+        65,
+        43,
+        56
+      ],
+      "frame_incognito_inactive": [
+        65,
+        43,
+        56
+      ],
+      "background_tab": [
+        45,
+        28,
+        31
+      ],
+      "background_tab_inactive": [
+        45,
+        28,
+        31
+      ],
+      "background_tab_incognito": [
+        45,
+        28,
+        31
+      ],
+      "toolbar": [
+        59,
+        38,
+        41
+      ],
+      "tab_text": [
+        242,
+        228,
+        226
+      ],
+      "tab_background_text": [
+        178,
+        162,
+        161
+      ],
+      "tab_background_text_inactive": [
+        165,
+        138,
+        140
+      ],
+      "bookmark_text": [
+        242,
+        228,
+        226
+      ],
+      "toolbar_text": [
+        242,
+        228,
+        226
+      ],
+      "toolbar_button_icon": [
+        205,
+        190,
+        189
+      ],
+      "omnibox_background": [
+        70,
+        49,
+        52
+      ],
+      "omnibox_text": [
+        242,
+        228,
+        226
+      ],
+      "ntp_background": [
+        59,
+        38,
+        41
+      ],
+      "ntp_text": [
+        242,
+        228,
+        226
+      ],
+      "ntp_link": [
+        76,
+        167,
+        238
+      ],
+      "ntp_header": [
+        45,
+        28,
+        31
+      ],
+      "button_background": [
+        70,
+        49,
+        52
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Cocoa Rose Dark",
+  "version": "0.3.2",
+  "description": "Cocoa Rose Dark, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        44,
+        33,
+        36
+      ],
+      "frame_inactive": [
+        44,
+        33,
+        36
+      ],
+      "frame_incognito": [
+        66,
+        47,
+        59
+      ],
+      "frame_incognito_inactive": [
+        66,
+        47,
+        59
+      ],
+      "background_tab": [
+        44,
+        33,
+        36
+      ],
+      "background_tab_inactive": [
+        44,
+        33,
+        36
+      ],
+      "background_tab_incognito": [
+        44,
+        33,
+        36
+      ],
+      "toolbar": [
+        56,
+        42,
+        45
+      ],
+      "tab_text": [
+        240,
+        227,
+        223
+      ],
+      "tab_background_text": [
+        176,
+        162,
+        161
+      ],
+      "tab_background_text_inactive": [
+        160,
+        138,
+        138
+      ],
+      "bookmark_text": [
+        240,
+        227,
+        223
+      ],
+      "toolbar_text": [
+        240,
+        227,
+        223
+      ],
+      "toolbar_button_icon": [
+        203,
+        190,
+        187
+      ],
+      "omnibox_background": [
+        67,
+        53,
+        56
+      ],
+      "omnibox_text": [
+        240,
+        227,
+        223
+      ],
+      "ntp_background": [
+        56,
+        42,
+        45
+      ],
+      "ntp_text": [
+        240,
+        227,
+        223
+      ],
+      "ntp_link": [
+        89,
+        165,
+        239
+      ],
+      "ntp_header": [
+        44,
+        33,
+        36
+      ],
+      "button_background": [
+        67,
+        53,
+        56
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

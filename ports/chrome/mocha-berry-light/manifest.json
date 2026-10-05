@@ -1,0 +1,118 @@
+{
+  "manifest_version": 3,
+  "name": "Mocha Berry Light",
+  "version": "0.3.2",
+  "description": "Mocha Berry Light, generated from palettes.json.",
+  "theme": {
+    "colors": {
+      "frame": [
+        234,
+        220,
+        224
+      ],
+      "frame_inactive": [
+        234,
+        220,
+        224
+      ],
+      "frame_incognito": [
+        215,
+        197,
+        209
+      ],
+      "frame_incognito_inactive": [
+        215,
+        197,
+        209
+      ],
+      "background_tab": [
+        234,
+        220,
+        224
+      ],
+      "background_tab_inactive": [
+        234,
+        220,
+        224
+      ],
+      "background_tab_incognito": [
+        234,
+        220,
+        224
+      ],
+      "toolbar": [
+        244,
+        233,
+        236
+      ],
+      "tab_text": [
+        59,
+        40,
+        48
+      ],
+      "tab_background_text": [
+        109,
+        95,
+        99
+      ],
+      "tab_background_text_inactive": [
+        124,
+        106,
+        115
+      ],
+      "bookmark_text": [
+        59,
+        40,
+        48
+      ],
+      "toolbar_text": [
+        59,
+        40,
+        48
+      ],
+      "toolbar_button_icon": [
+        96,
+        79,
+        86
+      ],
+      "omnibox_background": [
+        233,
+        221,
+        225
+      ],
+      "omnibox_text": [
+        59,
+        40,
+        48
+      ],
+      "ntp_background": [
+        244,
+        233,
+        236
+      ],
+      "ntp_text": [
+        59,
+        40,
+        48
+      ],
+      "ntp_link": [
+        0,
+        72,
+        132
+      ],
+      "ntp_header": [
+        234,
+        220,
+        224
+      ],
+      "button_background": [
+        233,
+        221,
+        225
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}

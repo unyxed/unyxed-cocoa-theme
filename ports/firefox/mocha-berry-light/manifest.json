@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "Mocha Berry Light",
+  "version": "0.3.2",
+  "description": "Mocha Berry Light, generated from palettes.json.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mocha-berry-light@unyxed-cocoa-theme",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#EADCE0",
+      "frame_inactive": "#EADCE0",
+      "tab_background_text": "#6D5F63",
+      "tab_text": "#3B2830",
+      "tab_selected": "#F4E9EC",
+      "tab_line": "#9E4270",
+      "tab_loading": "#9E4270",
+      "tab_background_separator": "#D2C3C7",
+      "toolbar": "#F4E9EC",
+      "toolbar_text": "#3B2830",
+      "toolbar_field": "#E9DDE1",
+      "toolbar_field_text": "#3B2830",
+      "toolbar_field_border": "#DCCED2",
+      "toolbar_field_focus": "#E9DDE1",
+      "toolbar_field_text_focus": "#3B2830",
+      "toolbar_field_border_focus": "#9E4270",
+      "toolbar_field_highlight": "#CFA7BA",
+      "toolbar_field_highlight_text": "#3B2830",
+      "toolbar_top_separator": "#EADCE0",
+      "toolbar_bottom_separator": "#DCCED2",
+      "toolbar_vertical_separator": "#D2C3C7",
+      "popup": "#F8F1F3",
+      "popup_text": "#3B2830",
+      "popup_border": "#D2C3C7",
+      "popup_highlight": "#E6D0D8",
+      "popup_highlight_text": "#3B2830",
+      "sidebar": "#EADCE0",
+      "sidebar_text": "#3B2830",
+      "sidebar_border": "#DCCED2",
+      "sidebar_highlight": "#E6D0D8",
+      "sidebar_highlight_text": "#3B2830",
+      "button_background_hover": "#E2D6D9",
+      "button_background_active": "#DACED2",
+      "icons": "#604F56",
+      "icons_attention": "#9E4270",
+      "ntp_background": "#F4E9EC",
+      "ntp_text": "#3B2830",
+      "ntp_card_background": "#F8F1F3"
+    },
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "Rosewood Light",
+  "version": "0.3.2",
+  "description": "Rosewood Light, generated from palettes.json.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "rosewood-light@unyxed-cocoa-theme",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#EBDCDA",
+      "frame_inactive": "#EBDCDA",
+      "tab_background_text": "#705F61",
+      "tab_text": "#3D2629",
+      "tab_selected": "#F5E9E7",
+      "tab_line": "#A34249",
+      "tab_loading": "#A34249",
+      "tab_background_separator": "#D3C3C1",
+      "toolbar": "#F5E9E7",
+      "toolbar_text": "#3D2629",
+      "toolbar_field": "#EADDDC",
+      "toolbar_field_text": "#3D2629",
+      "toolbar_field_border": "#DDCDCC",
+      "toolbar_field_focus": "#EADDDC",
+      "toolbar_field_text_focus": "#3D2629",
+      "toolbar_field_border_focus": "#A34249",
+      "toolbar_field_highlight": "#D1A7A9",
+      "toolbar_field_highlight_text": "#3D2629",
+      "toolbar_top_separator": "#EBDCDA",
+      "toolbar_bottom_separator": "#DDCDCC",
+      "toolbar_vertical_separator": "#D3C3C1",
+      "popup": "#F8F1EF",
+      "popup_text": "#3D2629",
+      "popup_border": "#D3C3C1",
+      "popup_highlight": "#E8D2D0",
+      "popup_highlight_text": "#3D2629",
+      "sidebar": "#EBDCDA",
+      "sidebar_text": "#3D2629",
+      "sidebar_border": "#DDCDCC",
+      "sidebar_highlight": "#E8D2D0",
+      "sidebar_highlight_text": "#3D2629",
+      "button_background_hover": "#E3D6D4",
+      "button_background_active": "#DBCECC",
+      "icons": "#624D4F",
+      "icons_attention": "#A34249",
+      "ntp_background": "#F5E9E7",
+      "ntp_text": "#3D2629",
+      "ntp_card_background": "#F8F1EF"
+    },
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    }
+  }
+}
